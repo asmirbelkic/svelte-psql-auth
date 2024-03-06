@@ -3,8 +3,8 @@
     import { goto } from '$app/navigation'
 
     const auth = {
-        email: 'sfr@sfr.fr',
-        password: 'testsss',
+        email: '',
+        password: '',
     }
     async function handleLogin() {
         if (!auth.email || !auth.password) {
